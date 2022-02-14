@@ -1,0 +1,30 @@
+body
+{
+    background-color: yellow;
+}
+h1
+{
+    color: black;
+    background-color: rgb(255, 123, 0);
+}
+#show_sketch
+{
+    float: right;
+}
+canvas
+{
+    border-radius: 30px;
+    border: red;
+    animation-name: kamehameha;
+    animation-duration:1000s;
+    margin-top: 10px;
+    animation-iteration-count:infinite;
+}
+@keyframes kamehameha
+{
+ from{box-shadow: 1px 1px 38px black;} 
+ from{box-shadow: 2px 2px 100px red;}  
+}
+p{padding-top: 10px;
+   font-size: 25px;
+ }
